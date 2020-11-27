@@ -16,6 +16,4 @@ export const WheatherSunny = () => <Wheather temperature={300} state="sunny" />;
 
 export const WheatherRain = () => <Wheather temperature={300} state="rain" />;
 
-
-
 export default WheatherStory;

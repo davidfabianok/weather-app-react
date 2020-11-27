@@ -8,11 +8,13 @@ test('should cityInfo render', async () => {
   // Act
   // Assert
   const cityInfoData = {
-      city: "Buenos Aires",
-      country: "Argentina"
-  }
+    city: 'Buenos Aires',
+    country: 'Argentina',
+  };
 
-  const { findAllByRole } = render(<CityInfo city={cityInfoData.city} country={cityInfoData.country} />);
+  const { findAllByRole } = render(
+    <CityInfo city={cityInfoData.city} country={cityInfoData.country} />
+  );
 
   const cityAndCountryComponents = await findAllByRole('heading');
 
