@@ -17,7 +17,7 @@ const renderState = (state) => {
   return <IconState />;
 };
 
-const Wheather = ({ temperature, state }) => {
+const Weather = ({ temperature, state }) => {
   return (
     <div>
       <IconContext.Provider value={{ size: '5em' }}>{renderState(state)}</IconContext.Provider>
@@ -28,9 +28,11 @@ const Wheather = ({ temperature, state }) => {
   );
 };
 
-Wheather.propTypes = {
+const validValues = ['cloud', 'cloudy', 'fog', 'sunny', 'rain'];
+
+Weather.propTypes = {
   temperature: PropTypes.number.isRequired,
-  state: PropTypes.string.isRequired,
+  state: PropTypes.oneOf(validValues).isRequired,
 };
 
-export default Wheather;
+export default Weather;
