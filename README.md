@@ -3,9 +3,9 @@
 ![CI/CD](https://github.com/davidfabianok/weather-app-react/workflows/weather-app-react%20CI/badge.svg)
 [![codecov](https://codecov.io/gh/davidfabianok/weather-app-react/branch/master/graph/badge.svg?token=4UNIMLD899)](https://codecov.io/gh/davidfabianok/weather-app-react)
 
-## Available Scripts
+### Demo 
+[DEMO](https://bit.ly/37elu4Z)
 
-In the project directory, you can run:
 
 ### `yarn start`
 
