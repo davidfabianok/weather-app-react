@@ -1,10 +1,8 @@
 
 # Weather App React ⛅
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-# Status
 ![CI/CD](https://github.com/davidfabianok/weather-app-react/workflows/weather-app-react%20CI/badge.svg)
+[![codecov](https://codecov.io/gh/davidfabianok/weather-app-react/branch/master/graph/badge.svg?token=4UNIMLD899)](https://codecov.io/gh/davidfabianok/weather-app-react)
+
 ## Available Scripts
 
 In the project directory, you can run:
