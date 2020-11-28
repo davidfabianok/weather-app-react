@@ -12,4 +12,5 @@ test('weatherDetail render ', async () => {
 
     expect(humidity).toHaveTextContent('Humedad: 80%')
     expect(wind).toHaveTextContent('Viento: 10 km/h')
+
 })
