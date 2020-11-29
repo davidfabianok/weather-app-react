@@ -17,16 +17,14 @@ const renderState = (state) => {
   return <IconState />;
 };
 
-const Weather = ({ temperature, state }) => {
-  return (
-    <div>
-      <IconContext.Provider value={{ size: '5em' }}>{renderState(state)}</IconContext.Provider>
-      <Typography display="inline" variant="h3">
-        {temperature}
-      </Typography>
-    </div>
-  );
-};
+const Weather = ({ temperature, state }) => (
+  <div>
+    <IconContext.Provider value={{ size: '5em' }}>{renderState(state)}</IconContext.Provider>
+    <Typography display="inline" variant="h3">
+      {temperature}
+    </Typography>
+  </div>
+);
 
 const validValues = ['cloud', 'cloudy', 'fog', 'sunny', 'rain'];
 
