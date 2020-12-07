@@ -2,7 +2,7 @@ import React from 'react';
 import Weather from './Weather';
 
 const WeatherStory = {
-  title: 'Weather',
+  title: 'Weather/Weather',
   component: Weather,
 };
 
